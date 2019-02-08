@@ -1,4 +1,4 @@
-.headbar {
+.navbar {
     width: 1300px;
     height: 60px;
     background-color: palevioletred;
@@ -6,6 +6,18 @@
     padding:0px;
     border:0px;
     margin: 0px;
+    font-family: Roboto;
+    color:black;
+}
+
+.navleft {
+    float:left;
+    margin-top: 25px;
+}
+
+.navright {
+    float:right;
+    margin-top: 25px;
 }
 
 .content {
