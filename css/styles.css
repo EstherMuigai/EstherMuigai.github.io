@@ -38,17 +38,15 @@
 .sidebar {
     width: 200px;
     height: 1436px;
-    background-color: rgb(141, 88, 106);
+    background-color: rgb(160, 65, 97);
     float: right;
     margin: 0px;
-    boarder-left: black 3px;
 }
 
 .upper {
-    width: 1000px;
+    width: 1100px;
     height: 400px;
-    background-color: rgb(141, 88, 106);
-    padding:0px;
+    background-color: rgb(160, 65, 97);
     border:0px;
     margin: 0px;
     font-family: Lucida Sans;
@@ -56,13 +54,35 @@
     text-align: center;
 }
 
+.column1 {
+    width: 500px;
+    height: 300px;
+    float: left;
+}
+
+.column2 {
+    width: 300px;
+    height: 300px;
+    float: right;
+    text-align: center;
+}
+
 .lower {
     width: 1200px;
     height: 1000px;
-    background-color: rgb(92, 43, 60);
-    padding:0px;
+    background-color:  rgb(155, 64, 94);
     border:0px;
     margin: 0px;
+}
+
+.aboutme {
+    width: 1100px;
+    height: 400px;
+    background-color: rgb(119, 28, 60);
+}
+
+.projects {
+    float:left;
 }
 
 #intro {
@@ -71,9 +91,10 @@
 
 #imgleft {
     float: left;
-    padding-top: 0px;
-    height: 300px;
-    width: 200px;
+    height: 400px;
+    width: 250px;
+    margin: 0px;
+    opacity: 0.7;
 } 
 
 #imgright {
@@ -86,17 +107,17 @@
     width: 200px;
 }
 
-img {
-    width: 200px;
-    height: 200px;
-    margin: 5px;
-    opacity: 0.7;
-}
 
 body {
     margin: 0px;
     height: 1300px;
     width: 1300px;
-    background-color: rgb(141, 88, 106);
+    background-color: rgb(155, 64, 94);
+}
+
+li {
+    font-size: 20px;
+    line-height: 50px;
+    align-content: center;
 }
 
