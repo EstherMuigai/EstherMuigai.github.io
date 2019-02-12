@@ -4,9 +4,9 @@
 ## Description
 This project is a culmination of all I have learnt about HTML tags, CSS rules, accessing of git through use of the command line and deployment to Github pages. My first mark as a developer.
 ## Setup/Installation Requirements
-Open an account on Github online
-Create a repository for this project
-Go to this account https://github.com/EstherMuigai/portfolio-landing-page and fork the repository on the link to your own account
+1.Open an account on Github online
+2.Create a repository for this project
+3.Go to this account https://github.com/EstherMuigai/portfolio-landing-page and fork the repository on the link to your own account
 Install a text editor such as VS Code on your PC
 Then access your terminal/CLI
 Initialize git then pull from Github.
@@ -18,7 +18,7 @@ Media queries are not yet efficient.
 ## Technologies Used
 Using HTML and CSS I was able to create a very user friendly site
 ## Support and contact details
-If you encounter any issues don't hesitate to contact me on this link.
+If you encounter any issues don't hesitate to contact me on this link https://github.com/EstherMuigai/
 ### MIT License
 
 Copyright (c) [2018] [Esther Muigai]
