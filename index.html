@@ -1,92 +1,493 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
-        <title>Esther Muigai</title>
-    </head>
-    <body>
-        <div class="navbar">
-            <div class="navleft">
-                <a href="https://">Esther Muigai</a>
-            </div>
-            <div class="navright">
-                <a href="https://">Contact</a>
-                <a href="https://">Gallery</a>
-            </div>
+<html lang="en">
+
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>My Portfolio - Esther Muigai</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i|Pacifico&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/hover/hover.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Responsive css -->
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png">
+
+  <!-- =======================================================
+    Theme Name: Folio
+    Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!-- start section navbar -->
+  <nav id="main-nav">
+    <div class="row">
+      <div class="container">
+
+        <div class="logo">
+          <a href="index.html">
+            <p class="my-logo">Portfolio</p>
+          </a>
         </div>
-        <div class="content">
-            <div class="mainbar">
-                <div class="upper">
-                    <p></p>
-                    <img id=imgcenter src="images/profile.jpg" alt="Esther Muigai's profile picture">
-                    <h1>Esther Muigai</h1>
-                    <h2>is a</h2>
-                    <h2 id="intro">budding <span style="font-size: 25px">Student Developer</span> excited 
-                        about all<span style="font-size: 25px"> Web Development</span> has to offer. I am 
-                        currently<span style="font-size: 25px"> learning at Moringa </span> lorem ipsum dolor sit amet, 
-                        <span style="font-size: 25px"> studied BBIT</span>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                        quis nostrud exercitation ullamco <span style="font-size: 20px"> HTML & CSS</span> 
-                        </h2>
+
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+
+        <ul class="nav-menu list-unstyled">
+          <li><a href="#header" class="smoothScroll">Home</a></li>
+          <li><a href="#about" class="smoothScroll">About</a></li>
+          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+          <li><a href="/documents/CV.pdf" target="blank" class="smoothScroll">CV</a></li>
+          <li><a href="#journal" class="smoothScroll">Blog</a></li>
+          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- End section navbar -->
+
+
+  <!-- start section header -->
+  <div id="header" class="home">
+
+    <div class="header-content">
+      <p> <br>Hi, I'm Esther.</br>
+        <br>a Software Developer.</br>
+        <br>I strive to make <span style="text-decoration: underline;text-decoration-color:rgb(240, 54, 85);">beautiful things</span> that make<span style="text-decoration: underline;text-decoration-color:rgb(240, 54, 85);"> a difference.</span></br>
+      </p>
+    </div>
+  </div>
+  <!-- End section header -->
+
+
+  <!-- start section about us -->
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="images/me.jpg" class="img-responsive" alt="me">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="about-descr">
+            <p class="separator">
+              a <span class="p-heading">full-stack developer</span>
+              based in Nairobi,<span class="p-heading">Kenya</span> making efficient
+              <span class="p-heading">web applications</span> masterfully.
+              I also engage in <span class="p-heading">technical writing</span> and
+              <span class="p-heading">teaching</span> when I can.<span class="p-heading">The mission</span>
+              is to design applications that <span class="p-heading">impact millions</span> across the world.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end section about us -->
+
+
+  <!-- start section services -->
+  <div id="services">
+    <div class="container">
+
+      <div class="services-carousel owl-theme">
+
+        <div class="services-block">
+
+          <i class="ion-ios-browsers-outline"></i>
+          <span>UI/UX DESIGN</span>
+          <p class="separator">I'm passionate about improving the lives of others through design and am constantly
+            looking to learn new things everyday</p>
+
+        </div>
+
+        <div class="services-block">
+
+          <i class="ion-code-working"></i>
+          <span>WEB DEVELOPMENT</span>
+          <p class="separator">Well versed in web development processes that include web design, web content
+            development,client-side scripting and hosting</p>
+
+        </div>
+
+        <div class="services-block">
+
+          <i class="ion-happy-outline"></i>
+          <span>USER-CENTERED DESIGN</span>
+          <p class="separator">Designing products, services, systems, and experiences that address the core needs of those who experience a problem</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!-- end section services -->
+
+
+  <!-- start section portfolio -->
+  <div id="portfolio" class="text-center paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>My Portfolio</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="portfolio-list">
+
+            <ul class="nav list-unstyled" id="portfolio-flters">
+              <li class="filter filter-active" data-filter=".all">all</li>
+              <li class="filter" data-filter=".branding">django</li>
+              <li class="filter" data-filter=".mockups">flask</li>
+              <li class="filter" data-filter=".uikits">angular</li>
+              <li class="filter" data-filter=".webdesign">react</li>
+              <li class="filter" data-filter=".photography"></li>
+            </ul>
+
+          </div>
+
+          <div class="portfolio-container">
+            <div class="flip-card  col-lg-4 col-md-6 portfolio-thumbnail all branding">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/portfolio/1.jpg" alt="img">
                 </div>
-                <div class="lower">
-                    <img id=imgleft src="images/profile2.jpg" alt="Esther Muigai's profile picture">
-                    <div class="aboutme">
-                        <div class="column1">
-                            <h2>About me</h2>
-                            <p>"Sed ut perspiciatis <span style="font-size: 20px">23 years old</span> unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, t
-                                otam rem aperiam, eaque ipsa vitae dicta sunt explicabo. 
-                                <span style="font-size: 20px"> Nairobi</span>  voluptas sit aspernatur aut odit aut fugit, <span style="font-size: 20px">3rd born</span>  dolores eos qui 
-                                ratione voluptatem sequi nesciunt. Neque porro quisquam est, <span style="font-size: 20px"> Rwanda and Nigeria</span> sit amet, </p>
-                            <ol>
-                                <li>eaque ipsa quae </li>
-                                <li>eaque ipsa quae </li>
-                            </ol>
-                            <h3>My background</h3>
-                            <p>Ut enim ad minima veniam, Ut <span style="font-size: 20px"> Multimedia University</span> suscipit laboriosam, a liquid 
-                                <span style="font-size: 20px"> undergraduate</span>  Quis autem vel eum iure 
-                                esse quam nihil molestiae consequatur, vel illum qui dolorem 
-                                <span style="font-size: 20px"> graduated in 2019 </span>ullam corporis suscipit laboriosam, 
-                                nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit</p>
-                        </div>
-                        <div class="column2">
-                        <h2>List of my hobbies</h2>
-                        <ul>
-                            <li>travelling</li>
-                            <li>reading</li>
-                            <li>running</li>
-                            <li>dancing</li>
-                            <li>writing</li>
-                            <li>swimming</li>
-                        </ul>
-                        </div>
-                    </div>
-                    <div class="projects">
-                        <h1 id="projectheader">MY PROJECTS</h1>
-                        <img class="slide" src="images/project1.jpg" alt="Michelle Obama Webpage">
-                        <img class="slide" src="images/project2.jpg" alt="Another webpage">
-                        <img class="slide" src="images/project3.jpg" alt="Another webpage">
-                        <p class="caption" >Michelle Obama webpage, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate 
-                            vel illum qui dolorem eum fugiat qui dolorem <a class="link" href="https://esthermuigai.github.io/michelle-obama-webpage/">Click here</a></p>
-                        <p class="caption" >Hotel resort webpage,,  quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate 
-                                vel illum qui dolorem eum fugiatqui dolorem <a class="link" href="https://esthermuigai.github.io/hotel-resort-webpage/">Click here</a></p>
-                        <p class="caption" >My first webpage, q quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate 
-                                vel illum qui dolorem eum fugiat qui dolorem  <a class="link" href="https://esthermuigai.github.io/Ess-first-webpage/">Click here</a></p>
+                <div class="flip-card-back">
+                  <a class="popup-img" href="images/portfolio/1(1).jpg">
+                    <h1>insta</h1>
+                  </a>
+                  <p>python-django</p>
+                  <a href="https://insta-night.herokuapp.com/">link to project <span><i
+                        class="ion-ios-arrow-right"></i></span></a>
                 </div>
+              </div>
+            </div>
+
+            <div class="flip-card  col-lg-4 col-md-6 portfolio-thumbnail all branding">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/portfolio/2.jpg" alt="img">
+                </div>
+                <div class="flip-card-back">
+                  <a class="popup-img" href="images/portfolio/2(2).jpg">
+                    <h1>album</h1>
+                  </a>
+                  <p>python-django</p>
+                  <a href="https://cool-gallery.herokuapp.com/">link to project <span><i
+                        class="ion-ios-arrow-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card  col-lg-4 col-md-6 portfolio-thumbnail all mockups">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/portfolio/3.jpg" alt="img">
+                </div>
+                <div class="flip-card-back">
+                  <a class="popup-img" href="images/portfolio/3(3).jpg">
+                    <h1>news</h1>
+                  </a>
+                  <p>flask</p>
+                  <a href="https://africapost.herokuapp.com/">link to project <span><i
+                        class="ion-ios-arrow-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card  col-lg-4 col-md-6 portfolio-thumbnail all uikits">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/portfolio/4.jpg" alt="img">
+                </div>
+                <div class="flip-card-back">
+                  <a class="popup-img" href="images/portfolio/4(4).jpg">
+                    <h1>github</h1>
+                  </a>
+                  <p>angular</p>
+                  <a href="https://esthermuigai.github.io/kodeSpace/">link to project <span><i
+                        class="ion-ios-arrow-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card  col-lg-4 col-md-6 portfolio-thumbnail all mockups">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/portfolio/5.jpg" alt="img">
+                </div>
+                <div class="flip-card-back">
+                  <a class="popup-img" href="images/portfolio/5(5).jpg">
+                    <h1>best pitch</h1>
+                  </a>
+                  <p>flask</p>
+                  <a href="https://mybestpitch.herokuapp.com/">link to project <span><i
+                        class="ion-ios-arrow-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card  col-lg-4 col-md-6 portfolio-thumbnail all mockups">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/portfolio/6.jpg" alt="img">
+                </div>
+                <div class="flip-card-back">
+                  <a class="popup-img" href="images/portfolio/6(6).jpg">
+                    <h1>quotes</h1>
+                  </a>
+                  <p>flask</p>
+                  <a href="https://esthermuigai.github.io/quotes-app/">link to project <span><i
+                        class="ion-ios-arrow-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- End section portfolio -->
+
+
+  <!-- start section journal -->
+  <div id="journal" class="text-left paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>BLOG</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="journal-block">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+
+              <a
+                href="https://medium.com/@esthermuigaimuthoni/in-memory-of-the-man-i-never-got-to-call-my-boss-the-late-sir-bob-collymore-ecf5db1901e3"><img
+                  src="images/blog-post-1.jpg" class="img-responsive" alt="img"></a>
+
+              <div class="journal-txt">
+
+                <h4><a
+                    href="https://medium.com/@esthermuigaimuthoni/in-memory-of-the-man-i-never-got-to-call-my-boss-the-late-sir-bob-collymore-ecf5db1901e3">BOB
+                    COLLYMORE</a></h4>
+                <p class="separator">In his memory.
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+
+              <a href="https://blog.usejournal.com/one-day-in-the-life-of-a-student-developer-in-kenya-a6c86828335d"><img
+                  src="images/blog-post-2.jpg" class="img-responsive" alt="img"></a>
+
+              <div class="journal-txt">
+
+                <h4><a
+                    href="https://blog.usejournal.com/one-day-in-the-life-of-a-student-developer-in-kenya-a6c86828335d">LEARNING</a>
+                </h4>
+                <p class="separator">student developer
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+
+              <a href="https://medium.com/series/10-tips-when-starting-out-in-software-development-71665930ba2a"><img
+                  src="images/blog-post-3.jpg" class="img-responsive" alt="img"></a>
+
+              <div class="journal-txt">
+
+                <h4><a
+                    href="https://medium.com/series/10-tips-when-starting-out-in-software-development-71665930ba2a">10
+                    TIPS</a></h4>
+                <p class="separator">starting out in software development
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- End section journal -->
+
+
+  <!-- start sectoion contact -->
+  <div id="contact" class="paddsection">
+    <div class="container">
+      <div class="contact-block1">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="contact-contact">
+
+              <h2 class="mb-30">GET IN TOUCH</h2>
+
+              <ul class="contact-details">
+                <li><span>P.O Box 20092-00200</span></li>
+                <li><span>Nairobi, Kenya</span></li>
+                <li><span>esthermuigaimuthoni@gmail.com</span></li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form class="gform" method="POST" class="pure-form pure-form-stacked"
+              data-email="example@email.net"
+              action="https://script.google.com/macros/s/AKfycbxlDr0LOkSpuyFuE3Hcp6CPEGIoAPx2ZE4YEMuL2A/exec"
+              target="myiframe">
+              <div class="row">
+
+                <div class="col-lg-6">
+                  <div class="form-group contact-block1">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                      data-rule="minlen:4" data-msg="Please enter at least 4 chars" required/>
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                      data-rule="email" data-msg="Please enter a valid email" required/>
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                      data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required/>
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" rows="12" data-rule="required"
+                      data-msg="Please write something for us" placeholder="Message" required></textarea>
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+
+            <div class="col-lg-6">
+            </div>
+            <div class="col-lg-6">
+                <div style="visibility:hidden;color:deeppink;" class="thankyou_message">
+                    <!-- You can customize the thankyou message by editing the code below -->
+                    <h5>Thanks for contacting Esther! She will get back to you soon! <i class="ion-happy-outline"></i></h5>
+                   </div>
             </div>
         </div>
-        <div class="sidebar">
-                <img class="news" src="images/sidebar.jpg" alt="trending">
-                <h3>Try my new app to track your hormonal changes especially if you are suffering an imbalance</h3>
-                <a href="https://" >Try out the app!</a>
-                <img class="news" src="images/sidebar1.jpg" alt="trending">
-                <h3>Esther Muigai will be a panelist at this years Girls in Tech which will be held in India</h3>
-                <a href="https://" >Link to facebook page</a>
-                <img class="news" src="images/sidebar3.jpeg" alt="trending">
-                <h3>I'll be attending a tech meet and greet in Westlands this weekend. Follow link for details </h3>
-                <a href="https://" >See details</a>
-                <img class="news" src="images/profile3.jpg" alt="trending">
-                <h3>Guest speaker on Tedex Talk on the 15th January.</h3>
-                <a href="https://" >Book a seat now!</a>
-        </div>
-    </body>
+      </div>
+    </div>
+  </div>
+  <!-- start sectoion contact -->
+
+
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+            <li><a href="https://www.linkedin.com/in/esther-muigai/" target="blank"><i class="ion-social-linkedin"></i></a></li>
+          <li><a href="https://github.com/EstherMuigai" target="blank"><i class="ion-social-github"></i></a></li>
+        </ul>
+
+      </div>
+
+      <p>&copy; Copyrights Esther Muigai. All rights reserved.</p>
+
+      <div class="credits">
+      </div>
+
+    </div>
+  </div>
+  <!-- End section footer -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script data-cfasync="false" type="text/javascript"
+    src="js/form-submission-handler.js">
+  </script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+
 </html>
